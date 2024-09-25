@@ -1,0 +1,56 @@
+body{
+    background-image: url("./img/winter.snow.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-color: grey;
+    color: bisque;
+}
+.header{
+    display: flex;
+    text-align: center;
+    flex-flow: row;
+    justify-content: space-between;
+    border: solid 5px;
+}
+.lediga-dagar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    max-width: 400px;
+    margin: auto;
+    border-color: yellow;
+    background-color: grey;
+}
+#julafton{
+    color: tomato;
+    background-color: white;
+}
+#nyårsdagen{
+    background-color: goldenrod;
+}
+.schema{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    border: solid 2px;
+    background-color: bisque;
+}
+.dagar{
+    background-color: grey;
+}
+table, th, td{
+    border: 1px solid tomato;
+}
+.helgdag{
+    color: tomato;
+}
+.fireworks{
+    text-align: center;
+    border: solid 10px;
+    margin: auto;
+    max-width: 750px;
+}
